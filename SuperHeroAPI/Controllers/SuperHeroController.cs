@@ -56,7 +56,8 @@ namespace SuperHeroAPI.Controllers
             if (dbHero == null)
                 return BadRequest("Hero's not there");
 
-            _Context.SuperHeroes.Remove(dbHero); 
+            _Context.SuperHeroes.Remove(dbHero);
+            await _Context.SaveChangesAsync();
             return Ok(await _Context.SuperHeroes.ToListAsync());
         }
     }
