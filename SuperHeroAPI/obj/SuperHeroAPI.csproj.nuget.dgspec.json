@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\Super heros\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
+    "C:\\Users\\PC\\Desktop\\Super-heroes-Angular-and-.net\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\Super heros\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
+    "C:\\Users\\PC\\Desktop\\Super-heroes-Angular-and-.net\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Super heros\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\Super-heroes-Angular-and-.net\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "projectName": "SuperHeroAPI",
-        "projectPath": "C:\\Users\\PC\\Desktop\\Super heros\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\Super-heroes-Angular-and-.net\\SuperHeroAPI\\SuperHeroAPI\\SuperHeroAPI.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\Super heros\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\Super-heroes-Angular-and-.net\\SuperHeroAPI\\SuperHeroAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
